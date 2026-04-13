@@ -1,0 +1,8 @@
+rules:
+  allow:
+    - enabled: true
+      order: 1
+      operations: [FETCH]
+      providers: [github]
+      slugs: ["/richardmcsong/sample"]
+
