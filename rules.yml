@@ -6,3 +6,8 @@ rules:
       providers: [github]
       slugs: ["/richardmcsong/sample"]
 
+    - enabled: true
+      order: 2
+      operations: [PUSH, FETCH]
+      providers: [github]
+      owners: [coopernetes]
